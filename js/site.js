@@ -3,7 +3,7 @@
 var config = {
     title:"Somalia Cash 3W",
     description:"CASH Sector Who is doing What, Where in Somalia Famine Response",
-    data:"https://proxy.hxlstandard.org/data.json?url=https://docs.google.com/spreadsheets/d/1qpBvyvSH6zAk-Qpf5aaDifIH9lfp8gNSsnBZ05GIZp0/edit#gid=0&strip-headers=on",
+    data:"https://proxy.hxlstandard.org/data.json?url=https://docs.google.com/spreadsheets/d/1qpBvyvSH6zAk-Qpf5aaDifIH9lfp8gNSsnBZ05GIZp0/edit#gid=0&strip-headers=on&force=on",
     whoFieldName:"#org",
     whatFieldName:"#sector",
     whereFieldName:"#adm2+code",
