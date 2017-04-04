@@ -1,17 +1,17 @@
 //configuration object
 
 var config = {
-    title:"Nepal Earthquake 2015 3W",
-    description:"Who is doing What, Where in response to the Nepal Earthquake - 06/05/2015",
-    data:"https://proxy.hxlstandard.org/data.json?url=https%3A//docs.google.com/spreadsheets/d/1wT2KJ-MdUc8t2UtdQUgKA1ma1dlsrRlxl_M7bJAoh1I/edit%3Fusp%3Dsharing&strip-headers=on",
+    title:"Somalia Cash 3W",
+    description:"CASH Sector Who is doing What, Where in Somalia Famine Response",
+    data:"https://proxy.hxlstandard.org/data.json?url=https%3A//docs.google.com/spreadsheets/d/1hWvP1_VXXO8GqQAz38-PXWiH4ec2UlGWxFLzp8OpSlI/edit#gid=1688108838&strip-headers=on",
     whoFieldName:"#org",
     whatFieldName:"#sector",
     whereFieldName:"#adm2+code",
     sum: true,
-    sumField:"#reached",
-    geo:"data/nepal_districts.geojson",
-    joinAttribute:"HLCIT_CODE",
-    nameAttribute:"DISTRICT",
+    sumField:"#targeted",
+    geo:"data/Somalia_District_Polygon.json",
+    joinAttribute:"DIS_CODE",
+    nameAttribute:"DIST_NAME",
     color:"#03a9f4"
 };
 
